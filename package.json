@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "setup-production": "npm run install-client && npm install",
-    "install-client" :"cd client && npm install && npm run build",
+    "install-client" :"cd frontend && npm install && npm run build",
     "start" : "cd backend && node app.js"
   },
   "author": "",
